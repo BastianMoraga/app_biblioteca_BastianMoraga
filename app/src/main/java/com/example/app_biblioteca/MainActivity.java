@@ -68,6 +68,8 @@ public class MainActivity extends AppCompatActivity {
         productos.add("Farenheith");
         productos.add("Revival");
         productos.add("El Alquimista");
+        productos.add("El Poder");
+        productos.add("Despertar");
 
         Intent i = new Intent(this, github_act.class);
 

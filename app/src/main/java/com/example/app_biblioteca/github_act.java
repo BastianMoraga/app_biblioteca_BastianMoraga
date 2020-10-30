@@ -51,5 +51,13 @@ public class github_act extends AppCompatActivity {
         {
             opcion.setText("El valor de El Alquimista es: " + productos.getElAlquimista());
         }
+        if(producto.equals("El Poder"))
+        {
+            opcion.setText("El valor de El Poder es: "+ productos.getElPoder());
+        }
+        if (producto.equals("Despertar"))
+        {
+            opcion.setText("El valor de Despertar es: " + productos.getDespertar());
+        }
     }
 }

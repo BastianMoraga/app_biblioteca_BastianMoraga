@@ -15,7 +15,7 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/BibliotecaDigital" />
+        app:srcCompat="@drawable/bibliotecadigital" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -69,15 +69,15 @@
 
     <ImageButton
         android:id="@+id/imgbtnGithub"
-        android:layout_width="151dp"
-        android:layout_height="179dp"
-        android:layout_marginTop="140dp"
+        android:layout_width="148dp"
+        android:layout_height="149dp"
+        android:layout_marginTop="48dp"
         android:background="@android:color/transparent"
         android:onClick="github"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.038"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:srcCompat="@drawable/githubLogo" />
+        app:srcCompat="@drawable/githublogo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
